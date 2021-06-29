@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  padding: 10px;
+  width: 100%;
+  justify-content: space-between;
+  opacity: 0.5;
+  cursor: pointer;
+  position: fixed;
+  z-index: 1;
+}
+.header_img_logo {
+   
+
+  width: 40px;
+  object-fit: contain;
+  position: fixed;
+  left: 0;
+  margin-left: 0.7rem;
+  cursor: pointer;
+}
+
+.header_img_avatar {
+  width: 40px;
+  object-fit: contain;
+  position: fixed;
+  right: 0;
+  margin-right: 0.5rem;
+}
