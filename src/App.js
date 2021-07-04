@@ -6,8 +6,7 @@ import requests from "./request";
 import Row from "./Row";
 
 function App() {
-  return (
-    <div className="App">
+  return (<div className="App">
       <Header />
       <Banner />
       <Row title="Trending Now" fetchUrls={requests.fetchTrending} isLargeRow />
